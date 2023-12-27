@@ -985,7 +985,7 @@ class _galileous:
 		_buffer = StreamPeerBuffer.new()
 		pass
 						
-class _tty_type:
+class _tty_getter_type:
 	func _money_getter(_buffer: StreamPeerBuffer):
 		_buffer = Object.new()
 		pass		
