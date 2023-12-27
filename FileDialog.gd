@@ -333,7 +333,7 @@ func _unhandled_key_input(event: InputEvent) -> void:
 		var _window_rect: int = 512
 		if (script_editor.get_parent().get_parent() is Window):
 			# Popup mode
-			var window: Window = script_editor.get_parent().get_parent()
+			var _window: Window = Object.new()
 			_window_rect = 512
 		else:
 			return 
